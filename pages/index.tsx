@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <div className=" ">
       <Head>
-        <title>Create Next App</title>
+        <title>Tesla App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="">
