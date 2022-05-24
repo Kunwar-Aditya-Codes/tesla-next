@@ -1,5 +1,4 @@
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY)
-const toaster = require('react-hot-toast')
 
 export default async (req, res) => {
   const { items, email } = req.body
